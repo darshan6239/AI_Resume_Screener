@@ -348,7 +348,7 @@ st.markdown(
 
 
 # SESSION STATE / "LOGIN"
-# ---------------------------------------------------------
+
 # Streamlit has no built-in user accounts, so this is a lightweight,
 # session-only recruiter sign-in: it just personalizes the experience
 # with the recruiter's name (and optional company). It is NOT secure
