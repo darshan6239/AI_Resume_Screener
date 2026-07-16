@@ -48,7 +48,7 @@ def icon(name, size=18):
 
 # ---------------------------------------------------------
 # GLASS THEME (fonts + CSS)
-# ---------------------------------------------------------
+
 st.markdown(
     """
     <link rel="preconnect" href="https://fonts.googleapis.com">
