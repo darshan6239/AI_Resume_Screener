@@ -347,7 +347,6 @@ st.markdown(
 )
 
 
-# ---------------------------------------------------------
 # SESSION STATE / "LOGIN"
 # ---------------------------------------------------------
 # Streamlit has no built-in user accounts, so this is a lightweight,
