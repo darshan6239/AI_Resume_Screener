@@ -45,7 +45,7 @@ def icon(name, size=18):
         f'{_ICON_PATHS[name]}</svg>'
     )
 
-# ---------------------------------------------------------
+
 # GLASS THEME (fonts + CSS)
 
 st.markdown(
