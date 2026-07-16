@@ -21,7 +21,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# ---------------------------------------------------------
+
 # Minimal line-icon helper (replaces colorful emoji with a
 # single consistent, monochrome icon style)
 _ICON_PATHS = {
