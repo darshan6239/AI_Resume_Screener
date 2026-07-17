@@ -401,7 +401,6 @@ if not st.session_state.recruiter_name:
 
 # ---------------------------------------------------------
 # HEADER
-# ---------------------------------------------------------
 now = datetime.datetime.now()
 
 header_l, header_r = st.columns([3, 1])
