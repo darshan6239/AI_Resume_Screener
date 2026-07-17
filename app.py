@@ -476,7 +476,6 @@ st.markdown("<br>", unsafe_allow_html=True)
 
 # ---------------------------------------------------------
 # NAV BAR (functional — drives st.session_state.active_page)
-# ---------------------------------------------------------
 NAV_ITEMS = [
     ("screen", "clip", "Screen"),
     ("descriptions", "doc", "Descriptions"),
