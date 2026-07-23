@@ -342,7 +342,6 @@ st.markdown(
 
 
 # Streamlit has no built-in user accounts, so this is a lightweight,
-# with the recruiter's name (and optional company). It is NOT secure
 if "recruiter_name" not in st.session_state:
     st.session_state.recruiter_name = None
     st.session_state.recruiter_company = None
