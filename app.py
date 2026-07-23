@@ -340,8 +340,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-
-# Streamlit has no built-in user accounts, so this is a lightweight,
 if "recruiter_name" not in st.session_state:
     st.session_state.recruiter_name = None
     st.session_state.recruiter_company = None
