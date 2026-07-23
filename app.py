@@ -400,7 +400,6 @@ with header_l:
     )
 
 with header_r:
-    # a tiny self-contained JS clock that ticks on its own every second,
     # independent of the Streamlit script lifecycle.
     st.components.v1.html(
         """
