@@ -386,7 +386,6 @@ if not st.session_state.recruiter_name:
     st.stop()
 
 
-# ---------------------------------------------------------
 now = datetime.datetime.now()
 
 header_l, header_r = st.columns([3, 1])
@@ -401,7 +400,6 @@ with header_l:
     )
 
 with header_r:
-    # A plain Python-rendered timestamp only updates when Streamlit
     # reruns (i.e. on the next click), so it looks "frozen". This embeds
     # a tiny self-contained JS clock that ticks on its own every second,
     # independent of the Streamlit script lifecycle.
