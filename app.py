@@ -34,7 +34,6 @@ _ICON_PATHS = {
     "chart": '<path d="M4 20h16"/><rect x="6" y="10" width="3" height="7"/><rect x="11" y="6" width="3" height="11"/><rect x="16" y="13" width="3" height="4"/>',
 }
 
-
 def icon(name, size=18):
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{size}" height="{size}" '
@@ -42,9 +41,6 @@ def icon(name, size=18):
         f'stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;">'
         f'{_ICON_PATHS[name]}</svg>'
     )
-
-
-# GLASS THEME (fonts + CSS)
 
 st.markdown(
     """
