@@ -400,7 +400,6 @@ with header_l:
     )
 
 with header_r:
-    # independent of the Streamlit script lifecycle.
     st.components.v1.html(
         """
         <style>
